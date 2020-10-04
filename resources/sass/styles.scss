@@ -1,0 +1,16 @@
+$breakpoints : (
+    xs  : 0,
+    sm  : 576px,
+    md  : 768px,
+    lg  : 992px,
+    xl  : 1200
+) !default;
+
+//Importar styles
+@import 'estilos/variables';
+@import 'estilos/base';
+@import 'estilos/form';
+@import 'estilos/personCreate';
+@import 'estilos/userCreate';
+@import 'estilos/userLogin';
+@import 'estilos/chart';

@@ -1,0 +1,12 @@
+.content-create-user > form{
+    @media screen and (min-width: map-get($map: $breakpoints, $key: md)){
+        width: 30em;
+    }
+    & > h1{
+        text-align: center;
+    }
+
+    & .form-group select {
+        width: 100%;
+    }
+}

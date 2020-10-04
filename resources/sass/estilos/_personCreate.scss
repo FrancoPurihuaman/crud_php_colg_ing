@@ -1,0 +1,46 @@
+.title{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 3rem;
+
+    h1 {
+        font-size: 2.5rem;
+        text-align: center;
+        padding-left: 5%;
+        
+        @media screen and (min-width: map-get($map: $breakpoints, $key: md)){
+            text-align: left;
+        }
+    }
+}
+
+
+.btn-1 {
+    width: 15%;
+    min-width: 15rem;
+    &:hover {
+      color      : lighten($color1, 60%);
+    }
+}
+
+
+.botones {
+    text-align: right;
+    margin-top: 4rem;
+}
+
+
+.datos-ok {
+    box-sizing: border-box;
+    margin: 4em;
+    padding: 2em;
+    background-color: lighten(green, 5%);
+    color: #000;
+}
+
+.errores {
+    box-sizing: border-box;
+    margin: 4em;
+    padding: 2em;
+    background-color: red;
+    color: #000;
+}
